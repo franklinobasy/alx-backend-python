@@ -255,3 +255,26 @@ bob@dylan:~$ ./8-main.py
 ```
 
 solution - [8-make_multiplier.py](./8-make_multiplier.py)
+
+### 9. Let's duck type an iterable object
+
+Annotate the below function’s parameters and return values with the appropriate types
+
+```python
+def element_length(lst):
+    return [(i, len(i)) for i in lst]
+```
+
+```
+bob@dylan:~$ cat 9-main.py 
+#!/usr/bin/env python3
+
+element_length =  __import__('9-element_length').element_length
+
+print(element_length.__annotations__)
+
+bob@dylan:~$ ./9-main.py 
+{'lst': typing.Iterable[typing.Sequence], 'return': typing.List[typing.Tuple[typing.Sequence, int]]}
+```
+
+solution - [9-element_length.py](./9-element_length.py)
