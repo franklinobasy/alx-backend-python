@@ -14,3 +14,4 @@ This repository contains all the project codes for the python backend specilizat
 | ------- | ---------- |
 | [`0x00. Python - Variable Annotations`](./0x00-python_variable_annotations) | Python - Variable Annotations: `Python` `Back-end` |
 | [`0x01. Python - Async`](./0x01-python_async_function/) | Python - Aysnc: `Python` `Back-end` |
+| [`0x02. Python - Async Comprehension`](./0x02-python_async_cPython -omprehension/) | Python - Async Comprehension: `Python` `Back-end` |
